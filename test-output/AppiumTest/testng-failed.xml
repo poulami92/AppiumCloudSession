@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AppiumTest]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="TestUtility.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="LongPressTest(failed)">
+    <classes>
+      <class name="AndroidAppiumTests.E2EEcommTests_POM">
+        <methods>
+          <include name="configureAppium"/>
+          <include name="quitDriver"/>
+          <include name="setUpDriver"/>
+          <include name="tearDown"/>
+          <include name="PurchaseProduct"/>
+          <include name="validateToastMessage"/>
+        </methods>
+      </class> <!-- AndroidAppiumTests.E2EEcommTests_POM -->
+    </classes>
+  </test> <!-- LongPressTest(failed) -->
+</suite> <!-- Failed suite [AppiumTest] -->

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AppiumE2EEcommTest">
+
+<listeners>
+   <listener class-name="TestUtility.Listeners"/>
+</listeners>
+
+<test name="LongPressTest"> 
+  <classes>
+    <class name = "AndroidAppiumTests.appiumBasics" />
+  </classes>
+</test>
+</suite> 
