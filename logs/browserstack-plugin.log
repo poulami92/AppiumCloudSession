@@ -12,3 +12,111 @@
 18:45:30.153 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
 18:45:30.153 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
 18:45:30.156 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/AppiumSession_Cloud
+19:31:07.502 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+19:31:07.509 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+19:31:07.511 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/AppiumSession_Cloud
+19:31:07.512 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+19:31:07.512 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+19:31:07.512 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/AppiumSession_Cloud
+15:03:32.556 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+15:03:32.578 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:03:32.584 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/AppiumSession
+15:03:32.586 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+15:03:32.586 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:03:32.590 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/AppiumSession
+15:05:58.126 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+15:05:58.127 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:05:58.130 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/AppiumSession_Cloud
+15:05:58.131 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+15:05:58.131 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:05:58.133 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/AppiumSession_Cloud
+15:08:56.349 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+15:08:56.350 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:08:56.355 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/APIFramwork
+15:08:56.356 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+15:08:56.356 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:08:56.358 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/APIFramwork
+15:09:24.270 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+15:09:24.271 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:09:24.275 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/JavaTutorials
+15:09:24.276 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+15:09:24.276 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:09:24.279 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/JavaTutorials
+15:10:19.014 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+15:10:19.015 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:10:19.017 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/RestApiAutomation
+15:10:19.018 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+15:10:19.018 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:10:19.020 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/RestApiAutomation
+15:11:10.973 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+15:11:10.974 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:11:10.975 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/SeleniumTutorial
+15:11:10.976 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+15:11:10.977 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:11:10.980 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/SeleniumTutorial
+15:12:43.078 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+15:12:43.079 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:12:43.082 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/APIFramwork
+15:12:43.084 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+15:12:43.084 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:12:43.086 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/APIFramwork
+15:13:00.305 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+15:13:00.305 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:13:00.307 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/AppiumSession
+15:13:00.308 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+15:13:00.308 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:13:00.310 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/AppiumSession
+15:13:14.466 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+15:13:14.466 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:13:14.468 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/AppiumSession_Cloud
+15:13:14.468 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+15:13:14.469 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:13:14.471 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/AppiumSession_Cloud
+15:13:49.930 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+15:13:49.931 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:13:49.932 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/JavaTutorials
+15:13:49.933 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+15:13:49.933 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:13:49.934 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/JavaTutorials
+15:14:19.338 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+15:14:19.338 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:14:19.340 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/RestApiAutomation
+15:14:19.341 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+15:14:19.341 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:14:19.343 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/RestApiAutomation
+14:32:02.569 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+14:32:02.593 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+14:32:02.597 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/AppiumSession_Cloud
+14:32:02.598 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+14:32:02.598 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+14:32:02.599 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/AppiumSession_Cloud
+14:48:52.232 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+14:48:52.237 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+14:48:52.240 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/AppiumSession_Cloud
+14:48:52.241 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+14:48:52.241 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+14:48:52.243 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/AppiumSession_Cloud
+14:51:45.901 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+14:51:45.908 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+14:51:45.911 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/AppiumSession_Cloud
+14:51:45.913 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+14:51:45.913 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+14:51:45.914 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/AppiumSession_Cloud
+17:10:42.687 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+17:10:42.695 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:10:42.697 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/AppiumSession_Cloud
+17:10:42.697 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+17:10:42.697 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:10:42.698 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/AppiumSession_Cloud
+17:10:44.378 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+17:10:44.378 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:10:44.379 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/AppiumSession_Cloud
+17:10:44.380 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+17:10:44.380 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:10:44.382 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/AppiumSession_Cloud
+17:26:29.063 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+17:26:29.067 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:26:29.068 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/AppiumSession
+17:26:29.069 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+17:26:29.069 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:26:29.071 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/AppiumSession

@@ -4,21 +4,6 @@
   <listeners>
     <listener class-name="TestUtility.Listeners"/>
   </listeners>
-  <test thread-count="3" name="LongPressTest-2(failed)" verbose="0">
-    <parameter name="platform" value="2"/>
-    <classes>
-      <class name="AndroidAppiumTests.E2EEcommTests_POM">
-        <methods>
-          <include name="configureAppium"/>
-          <include name="quitDriver"/>
-          <include name="setUpDriver"/>
-          <include name="tearDown"/>
-          <include name="PurchaseProduct"/>
-          <include name="validateToastMessage"/>
-        </methods>
-      </class> <!-- AndroidAppiumTests.E2EEcommTests_POM -->
-    </classes>
-  </test> <!-- LongPressTest-2(failed) -->
   <test thread-count="3" name="LongPressTest-1(failed)" verbose="0">
     <parameter name="platform" value="1"/>
     <classes>
@@ -39,8 +24,8 @@
     <classes>
       <class name="AndroidAppiumTests.E2EEcommTests_POM">
         <methods>
-          <include name="quitDriver"/>
           <include name="configureAppium"/>
+          <include name="quitDriver"/>
           <include name="setUpDriver"/>
           <include name="tearDown"/>
           <include name="PurchaseProduct"/>
@@ -49,4 +34,19 @@
       </class> <!-- AndroidAppiumTests.E2EEcommTests_POM -->
     </classes>
   </test> <!-- LongPressTest-0(failed) -->
+  <test thread-count="3" name="LongPressTest-2(failed)" verbose="0">
+    <parameter name="platform" value="2"/>
+    <classes>
+      <class name="AndroidAppiumTests.E2EEcommTests_POM">
+        <methods>
+          <include name="configureAppium"/>
+          <include name="quitDriver"/>
+          <include name="setUpDriver"/>
+          <include name="tearDown"/>
+          <include name="PurchaseProduct"/>
+          <include name="validateToastMessage"/>
+        </methods>
+      </class> <!-- AndroidAppiumTests.E2EEcommTests_POM -->
+    </classes>
+  </test> <!-- LongPressTest-2(failed) -->
 </suite> <!-- Failed suite [AppiumE2EEcommTest] -->

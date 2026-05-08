@@ -1,725 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="0" failed="0" skipped="6">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-20T19:02:14 IST" name="AppiumE2EEcommTest" finished-at="2026-04-20T19:02:24 IST" duration-ms="10267">
+  <suite started-at="2026-05-08T17:39:29 IST" name="AppiumE2EEcommTest" finished-at="2026-05-08T17:41:41 IST" duration-ms="132302">
     <groups>
     </groups>
-    <test started-at="2026-04-20T19:02:14 IST" name="LongPressTest-2" finished-at="2026-04-20T19:02:24 IST" duration-ms="10022">
+    <test started-at="2026-05-08T17:39:29 IST" name="LongPressTest-1" finished-at="2026-05-08T17:41:23 IST" duration-ms="114533">
       <class name="AndroidAppiumTests.E2EEcommTests_POM">
-        <test-method is-config="true" signature="configureAppium()[pri:0, instance:AndroidAppiumTests.E2EEcommTests_POM@12fe1f28]" started-at="2026-04-20T19:02:14 IST" name="configureAppium" finished-at="2026-04-20T19:02:17 IST" duration-ms="2218" status="PASS">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:AndroidAppiumTests.E2EEcommTests_POM@6015a4a5]" started-at="2026-05-08T17:39:29 IST" name="configureAppium" finished-at="2026-05-08T17:39:30 IST" duration-ms="1216" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureAppium -->
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:AndroidAppiumTests.E2EEcommTests_POM@12fe1f28]" started-at="2026-04-20T19:02:18 IST" name="setUpDriver" finished-at="2026-04-20T19:02:19 IST" duration-ms="1848" status="FAIL">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-FRC4SK8', ip: '192.168.1.8'
-Build info: version: '4.43.0', revision: 'dd0f534'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[null]}]
-Capabilities {}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-FRC4SK8', ip: '192.168.1.8'
-Build info: version: '4.43.0', revision: 'dd0f534'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[null]}]
-Capabilities {}
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:627)
-at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:308)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:213)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:199)
-at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98)
-at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:109)
-at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:108)
-at BaseTests.EcommBaseTest.setUpDriver(EcommBaseTest.java:65)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:846)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:611)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: java.lang.NullPointerException
-at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-at java.base/java.util.Collections$2.tryAdvance(Collections.java:5073)
-at java.base/java.util.Collections$2.forEachRemaining(Collections.java:5081)
-at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
-at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
-at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:89)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:60)
-at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)
-at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
-... 31 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:AndroidAppiumTests.E2EEcommTests_POM@6015a4a5]" started-at="2026-05-08T17:39:31 IST" name="setUpDriver" finished-at="2026-05-08T17:40:03 IST" duration-ms="31849" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDriver -->
-        <test-method signature="validateToastMessage()[pri:1, instance:AndroidAppiumTests.E2EEcommTests_POM@12fe1f28]" started-at="2026-04-20T19:02:20 IST" name="validateToastMessage" finished-at="2026-04-20T19:02:20 IST" duration-ms="1" status="SKIP">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-FRC4SK8', ip: '192.168.1.8'
-Build info: version: '4.43.0', revision: 'dd0f534'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[null]}]
-Capabilities {}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-FRC4SK8', ip: '192.168.1.8'
-Build info: version: '4.43.0', revision: 'dd0f534'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[null]}]
-Capabilities {}
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:627)
-at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:308)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:213)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:199)
-at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98)
-at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:109)
-at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:108)
-at BaseTests.EcommBaseTest.setUpDriver(EcommBaseTest.java:65)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:846)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:611)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: java.lang.NullPointerException
-at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-at java.base/java.util.Collections$2.tryAdvance(Collections.java:5073)
-at java.base/java.util.Collections$2.forEachRemaining(Collections.java:5081)
-at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
-at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
-at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:89)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:60)
-at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)
-at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
-... 31 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+        <test-method signature="validateToastMessage()[pri:1, instance:AndroidAppiumTests.E2EEcommTests_POM@6015a4a5]" started-at="2026-05-08T17:40:03 IST" name="validateToastMessage" finished-at="2026-05-08T17:40:13 IST" duration-ms="10046" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateToastMessage -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:AndroidAppiumTests.E2EEcommTests_POM@12fe1f28]" started-at="2026-04-20T19:02:21 IST" name="quitDriver" finished-at="2026-04-20T19:02:21 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:AndroidAppiumTests.E2EEcommTests_POM@6015a4a5]" started-at="2026-05-08T17:40:15 IST" name="quitDriver" finished-at="2026-05-08T17:40:16 IST" duration-ms="1627" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:AndroidAppiumTests.E2EEcommTests_POM@12fe1f28]" started-at="2026-04-20T19:02:22 IST" name="setUpDriver" finished-at="2026-04-20T19:02:22 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:AndroidAppiumTests.E2EEcommTests_POM@6015a4a5]" started-at="2026-05-08T17:40:16 IST" name="setUpDriver" finished-at="2026-05-08T17:40:42 IST" duration-ms="25978" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDriver -->
-        <test-method signature="PurchaseProduct()[pri:2, instance:AndroidAppiumTests.E2EEcommTests_POM@12fe1f28]" started-at="2026-04-20T19:02:22 IST" name="PurchaseProduct" finished-at="2026-04-20T19:02:22 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-FRC4SK8', ip: '192.168.1.8'
-Build info: version: '4.43.0', revision: 'dd0f534'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[null]}]
-Capabilities {}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-FRC4SK8', ip: '192.168.1.8'
-Build info: version: '4.43.0', revision: 'dd0f534'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[null]}]
-Capabilities {}
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:627)
-at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:308)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:213)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:199)
-at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98)
-at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:109)
-at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:108)
-at BaseTests.EcommBaseTest.setUpDriver(EcommBaseTest.java:65)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:846)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:611)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: java.lang.NullPointerException
-at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-at java.base/java.util.Collections$2.tryAdvance(Collections.java:5073)
-at java.base/java.util.Collections$2.forEachRemaining(Collections.java:5081)
-at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
-at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
-at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:89)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:60)
-at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)
-at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
-... 31 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+        <test-method signature="PurchaseProduct()[pri:2, instance:AndroidAppiumTests.E2EEcommTests_POM@6015a4a5]" started-at="2026-05-08T17:40:42 IST" name="PurchaseProduct" finished-at="2026-05-08T17:41:20 IST" duration-ms="37574" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PurchaseProduct -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:AndroidAppiumTests.E2EEcommTests_POM@12fe1f28]" started-at="2026-04-20T19:02:23 IST" name="quitDriver" finished-at="2026-04-20T19:02:23 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:AndroidAppiumTests.E2EEcommTests_POM@6015a4a5]" started-at="2026-05-08T17:41:21 IST" name="quitDriver" finished-at="2026-05-08T17:41:23 IST" duration-ms="1665" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AndroidAppiumTests.E2EEcommTests_POM@12fe1f28]" started-at="2026-04-20T19:02:23 IST" name="tearDown" finished-at="2026-04-20T19:02:23 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- AndroidAppiumTests.E2EEcommTests_POM -->
-    </test> <!-- LongPressTest-2 -->
-    <test started-at="2026-04-20T19:02:14 IST" name="LongPressTest-1" finished-at="2026-04-20T19:02:24 IST" duration-ms="10182">
-      <class name="AndroidAppiumTests.E2EEcommTests_POM">
-        <test-method is-config="true" signature="configureAppium()[pri:0, instance:AndroidAppiumTests.E2EEcommTests_POM@71e35c4]" started-at="2026-04-20T19:02:14 IST" name="configureAppium" finished-at="2026-04-20T19:02:17 IST" duration-ms="2216" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configureAppium -->
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:AndroidAppiumTests.E2EEcommTests_POM@71e35c4]" started-at="2026-04-20T19:02:18 IST" name="setUpDriver" finished-at="2026-04-20T19:02:19 IST" duration-ms="1848" status="FAIL">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-FRC4SK8', ip: '192.168.1.8'
-Build info: version: '4.43.0', revision: 'dd0f534'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[null]}]
-Capabilities {}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-FRC4SK8', ip: '192.168.1.8'
-Build info: version: '4.43.0', revision: 'dd0f534'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[null]}]
-Capabilities {}
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:627)
-at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:308)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:213)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:199)
-at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98)
-at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:109)
-at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:108)
-at BaseTests.EcommBaseTest.setUpDriver(EcommBaseTest.java:65)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:846)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:611)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: java.lang.NullPointerException
-at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-at java.base/java.util.Collections$2.tryAdvance(Collections.java:5073)
-at java.base/java.util.Collections$2.forEachRemaining(Collections.java:5081)
-at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
-at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
-at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:89)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:60)
-at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)
-at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
-... 31 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDriver -->
-        <test-method signature="validateToastMessage()[pri:1, instance:AndroidAppiumTests.E2EEcommTests_POM@71e35c4]" started-at="2026-04-20T19:02:20 IST" name="validateToastMessage" finished-at="2026-04-20T19:02:20 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-FRC4SK8', ip: '192.168.1.8'
-Build info: version: '4.43.0', revision: 'dd0f534'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[null]}]
-Capabilities {}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-FRC4SK8', ip: '192.168.1.8'
-Build info: version: '4.43.0', revision: 'dd0f534'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[null]}]
-Capabilities {}
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:627)
-at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:308)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:213)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:199)
-at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98)
-at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:109)
-at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:108)
-at BaseTests.EcommBaseTest.setUpDriver(EcommBaseTest.java:65)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:846)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:611)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: java.lang.NullPointerException
-at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-at java.base/java.util.Collections$2.tryAdvance(Collections.java:5073)
-at java.base/java.util.Collections$2.forEachRemaining(Collections.java:5081)
-at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
-at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
-at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:89)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:60)
-at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)
-at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
-... 31 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateToastMessage -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:AndroidAppiumTests.E2EEcommTests_POM@71e35c4]" started-at="2026-04-20T19:02:21 IST" name="quitDriver" finished-at="2026-04-20T19:02:21 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:AndroidAppiumTests.E2EEcommTests_POM@71e35c4]" started-at="2026-04-20T19:02:22 IST" name="setUpDriver" finished-at="2026-04-20T19:02:22 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDriver -->
-        <test-method signature="PurchaseProduct()[pri:2, instance:AndroidAppiumTests.E2EEcommTests_POM@71e35c4]" started-at="2026-04-20T19:02:22 IST" name="PurchaseProduct" finished-at="2026-04-20T19:02:22 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-FRC4SK8', ip: '192.168.1.8'
-Build info: version: '4.43.0', revision: 'dd0f534'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[null]}]
-Capabilities {}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-FRC4SK8', ip: '192.168.1.8'
-Build info: version: '4.43.0', revision: 'dd0f534'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[null]}]
-Capabilities {}
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:627)
-at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:308)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:213)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:199)
-at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98)
-at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:109)
-at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:108)
-at BaseTests.EcommBaseTest.setUpDriver(EcommBaseTest.java:65)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:846)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:611)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: java.lang.NullPointerException
-at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-at java.base/java.util.Collections$2.tryAdvance(Collections.java:5073)
-at java.base/java.util.Collections$2.forEachRemaining(Collections.java:5081)
-at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
-at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
-at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:89)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:60)
-at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)
-at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
-... 31 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PurchaseProduct -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:AndroidAppiumTests.E2EEcommTests_POM@71e35c4]" started-at="2026-04-20T19:02:23 IST" name="quitDriver" finished-at="2026-04-20T19:02:23 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AndroidAppiumTests.E2EEcommTests_POM@71e35c4]" started-at="2026-04-20T19:02:23 IST" name="tearDown" finished-at="2026-04-20T19:02:23 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AndroidAppiumTests.E2EEcommTests_POM@6015a4a5]" started-at="2026-05-08T17:41:23 IST" name="tearDown" finished-at="2026-05-08T17:41:23 IST" duration-ms="205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- AndroidAppiumTests.E2EEcommTests_POM -->
     </test> <!-- LongPressTest-1 -->
-    <test started-at="2026-04-20T19:02:14 IST" name="LongPressTest-0" finished-at="2026-04-20T19:02:24 IST" duration-ms="10267">
+    <test started-at="2026-05-08T17:39:29 IST" name="LongPressTest-2" finished-at="2026-05-08T17:41:30 IST" duration-ms="121032">
       <class name="AndroidAppiumTests.E2EEcommTests_POM">
-        <test-method is-config="true" signature="configureAppium()[pri:0, instance:AndroidAppiumTests.E2EEcommTests_POM@7d78f3d5]" started-at="2026-04-20T19:02:14 IST" name="configureAppium" finished-at="2026-04-20T19:02:17 IST" duration-ms="2216" status="PASS">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:AndroidAppiumTests.E2EEcommTests_POM@4779aae6]" started-at="2026-05-08T17:39:29 IST" name="configureAppium" finished-at="2026-05-08T17:39:30 IST" duration-ms="1216" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureAppium -->
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:AndroidAppiumTests.E2EEcommTests_POM@7d78f3d5]" started-at="2026-04-20T19:02:18 IST" name="setUpDriver" finished-at="2026-04-20T19:02:19 IST" duration-ms="1848" status="FAIL">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-FRC4SK8', ip: '192.168.1.8'
-Build info: version: '4.43.0', revision: 'dd0f534'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[null]}]
-Capabilities {}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-FRC4SK8', ip: '192.168.1.8'
-Build info: version: '4.43.0', revision: 'dd0f534'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[null]}]
-Capabilities {}
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:627)
-at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:308)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:213)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:199)
-at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98)
-at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:109)
-at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:108)
-at BaseTests.EcommBaseTest.setUpDriver(EcommBaseTest.java:65)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:846)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:611)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: java.lang.NullPointerException
-at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-at java.base/java.util.Collections$2.tryAdvance(Collections.java:5073)
-at java.base/java.util.Collections$2.forEachRemaining(Collections.java:5081)
-at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
-at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
-at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:89)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:60)
-at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)
-at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
-... 31 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:AndroidAppiumTests.E2EEcommTests_POM@4779aae6]" started-at="2026-05-08T17:39:31 IST" name="setUpDriver" finished-at="2026-05-08T17:40:04 IST" duration-ms="33105" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDriver -->
-        <test-method signature="validateToastMessage()[pri:1, instance:AndroidAppiumTests.E2EEcommTests_POM@7d78f3d5]" started-at="2026-04-20T19:02:20 IST" name="validateToastMessage" finished-at="2026-04-20T19:02:20 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-FRC4SK8', ip: '192.168.1.8'
-Build info: version: '4.43.0', revision: 'dd0f534'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[null]}]
-Capabilities {}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-FRC4SK8', ip: '192.168.1.8'
-Build info: version: '4.43.0', revision: 'dd0f534'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[null]}]
-Capabilities {}
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:627)
-at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:308)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:213)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:199)
-at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98)
-at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:109)
-at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:108)
-at BaseTests.EcommBaseTest.setUpDriver(EcommBaseTest.java:65)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:846)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:611)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: java.lang.NullPointerException
-at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-at java.base/java.util.Collections$2.tryAdvance(Collections.java:5073)
-at java.base/java.util.Collections$2.forEachRemaining(Collections.java:5081)
-at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
-at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
-at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:89)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:60)
-at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)
-at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
-... 31 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+        <test-method signature="validateToastMessage()[pri:1, instance:AndroidAppiumTests.E2EEcommTests_POM@4779aae6]" started-at="2026-05-08T17:40:04 IST" name="validateToastMessage" finished-at="2026-05-08T17:40:12 IST" duration-ms="7728" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateToastMessage -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:AndroidAppiumTests.E2EEcommTests_POM@7d78f3d5]" started-at="2026-04-20T19:02:21 IST" name="quitDriver" finished-at="2026-04-20T19:02:21 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:AndroidAppiumTests.E2EEcommTests_POM@4779aae6]" started-at="2026-05-08T17:40:14 IST" name="quitDriver" finished-at="2026-05-08T17:40:15 IST" duration-ms="1591" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:AndroidAppiumTests.E2EEcommTests_POM@7d78f3d5]" started-at="2026-04-20T19:02:22 IST" name="setUpDriver" finished-at="2026-04-20T19:02:22 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:AndroidAppiumTests.E2EEcommTests_POM@4779aae6]" started-at="2026-05-08T17:40:15 IST" name="setUpDriver" finished-at="2026-05-08T17:40:47 IST" duration-ms="31881" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDriver -->
-        <test-method signature="PurchaseProduct()[pri:2, instance:AndroidAppiumTests.E2EEcommTests_POM@7d78f3d5]" started-at="2026-04-20T19:02:22 IST" name="PurchaseProduct" finished-at="2026-04-20T19:02:22 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-FRC4SK8', ip: '192.168.1.8'
-Build info: version: '4.43.0', revision: 'dd0f534'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[null]}]
-Capabilities {}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-FRC4SK8', ip: '192.168.1.8'
-Build info: version: '4.43.0', revision: 'dd0f534'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[null]}]
-Capabilities {}
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:627)
-at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:308)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:213)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:199)
-at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98)
-at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:109)
-at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:108)
-at BaseTests.EcommBaseTest.setUpDriver(EcommBaseTest.java:65)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:846)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:611)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: java.lang.NullPointerException
-at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-at java.base/java.util.Collections$2.tryAdvance(Collections.java:5073)
-at java.base/java.util.Collections$2.forEachRemaining(Collections.java:5081)
-at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
-at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
-at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:89)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:60)
-at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)
-at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
-... 31 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+        <test-method signature="PurchaseProduct()[pri:2, instance:AndroidAppiumTests.E2EEcommTests_POM@4779aae6]" started-at="2026-05-08T17:40:47 IST" name="PurchaseProduct" finished-at="2026-05-08T17:41:26 IST" duration-ms="38827" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PurchaseProduct -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:AndroidAppiumTests.E2EEcommTests_POM@7d78f3d5]" started-at="2026-04-20T19:02:23 IST" name="quitDriver" finished-at="2026-04-20T19:02:23 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:AndroidAppiumTests.E2EEcommTests_POM@4779aae6]" started-at="2026-05-08T17:41:27 IST" name="quitDriver" finished-at="2026-05-08T17:41:29 IST" duration-ms="2058" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AndroidAppiumTests.E2EEcommTests_POM@7d78f3d5]" started-at="2026-04-20T19:02:24 IST" name="tearDown" finished-at="2026-04-20T19:02:24 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AndroidAppiumTests.E2EEcommTests_POM@4779aae6]" started-at="2026-05-08T17:41:29 IST" name="tearDown" finished-at="2026-05-08T17:41:29 IST" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AndroidAppiumTests.E2EEcommTests_POM -->
+    </test> <!-- LongPressTest-2 -->
+    <test started-at="2026-05-08T17:39:29 IST" name="LongPressTest-0" finished-at="2026-05-08T17:41:41 IST" duration-ms="132302">
+      <class name="AndroidAppiumTests.E2EEcommTests_POM">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:AndroidAppiumTests.E2EEcommTests_POM@767f6ee7]" started-at="2026-05-08T17:39:29 IST" name="configureAppium" finished-at="2026-05-08T17:39:30 IST" duration-ms="1216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAppium -->
+        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:AndroidAppiumTests.E2EEcommTests_POM@767f6ee7]" started-at="2026-05-08T17:39:31 IST" name="setUpDriver" finished-at="2026-05-08T17:40:06 IST" duration-ms="34768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method signature="validateToastMessage()[pri:1, instance:AndroidAppiumTests.E2EEcommTests_POM@767f6ee7]" started-at="2026-05-08T17:40:06 IST" name="validateToastMessage" finished-at="2026-05-08T17:40:19 IST" duration-ms="12915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateToastMessage -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:AndroidAppiumTests.E2EEcommTests_POM@767f6ee7]" started-at="2026-05-08T17:40:19 IST" name="quitDriver" finished-at="2026-05-08T17:40:21 IST" duration-ms="1403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:AndroidAppiumTests.E2EEcommTests_POM@767f6ee7]" started-at="2026-05-08T17:40:21 IST" name="setUpDriver" finished-at="2026-05-08T17:40:53 IST" duration-ms="31906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method signature="PurchaseProduct()[pri:2, instance:AndroidAppiumTests.E2EEcommTests_POM@767f6ee7]" started-at="2026-05-08T17:40:53 IST" name="PurchaseProduct" finished-at="2026-05-08T17:41:37 IST" duration-ms="44486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PurchaseProduct -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:AndroidAppiumTests.E2EEcommTests_POM@767f6ee7]" started-at="2026-05-08T17:41:38 IST" name="quitDriver" finished-at="2026-05-08T17:41:40 IST" duration-ms="1832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AndroidAppiumTests.E2EEcommTests_POM@767f6ee7]" started-at="2026-05-08T17:41:41 IST" name="tearDown" finished-at="2026-05-08T17:41:41 IST" duration-ms="199" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -8,7 +8,7 @@
 
 <test name="LongPressTest"> 
   <classes>
-    <class name = "AndroidAppiumTests.appiumBasics" />
+    <class name = "AndroidAppiumTests.E2EEcommTests_POM" />
   </classes>
 </test>
 </suite> 

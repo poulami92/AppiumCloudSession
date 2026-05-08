@@ -5,11 +5,13 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URISyntaxException;
+import java.net.URL;
 import java.time.Duration;
 import java.util.Properties;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.MutableCapabilities;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebElement;
 import org.testng.annotations.AfterClass;
@@ -32,7 +34,7 @@ public class EcommBaseTest {
 	
 	public AndroidDriver driver;
 	public AppiumDriverLocalService service;
-	UiAutomator2Options options;
+	MutableCapabilities capabilities;
 	public FormPage formPage;
 	public static Properties prop;
 	
@@ -46,23 +48,13 @@ public class EcommBaseTest {
 	@BeforeClass
 	public void configureAppium() throws MalformedURLException, URISyntaxException
 	{
-		service = new AppiumServiceBuilder()
-		        .withIPAddress(prop.getProperty("ipAddress"))
-		        .usingPort(Integer.parseInt(prop.getProperty("port")))
-		        .build();
-		
-		service.start();
-		
-		options = new UiAutomator2Options();
-		options.setDeviceName(prop.getProperty("AndroidDeviceName"));
-		options.setApp(System.getProperty("user.dir")+"\\resources\\General-Store.apk");
-		options.setChromedriverExecutable(System.getProperty("user.dir")+"\\resources\\chromedriver-win64\\chromedriver.exe");
+		capabilities = new UiAutomator2Options();
 	}
 	
 	@BeforeMethod
 	public void setUpDriver() throws MalformedURLException, URISyntaxException
 	{
-		driver = new AndroidDriver(service.getUrl(), options);
+        driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
 		formPage = new FormPage(driver);
 	}
@@ -76,7 +68,7 @@ public class EcommBaseTest {
 	@AfterClass
 	public void tearDown()
 	{
-		service.stop();
+		//service.stop();
 	}
 
 
